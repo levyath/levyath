@@ -1,0 +1,37 @@
+name: GitHub-Profile-3D-Contrib
+
+on:
+  # roda todo dia às 03:00 no horário de Brasília (UTC‑3 ⇒ 06:00 UTC)
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:   # botão “Run workflow” na aba Actions
+
+permissions:
+  contents: write       # preciso para fazer commit automático
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # gera as imagens SVG do gráfico 3D
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # gerado pelo próprio GitHub
+          USERNAME: ${{ github.repository_owner }}    # seu usuário (auto)
+
+      # faz commit só se houver mudanças
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git diff --cached --quiet; then
+            echo "Nada pra commitar 🙂"
+          else
+            git commit -m "chore: update 3D contrib graph"
+            git push
+          fi
