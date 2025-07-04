@@ -2035,11 +2035,11 @@ fill-opacity: 0.5;
         </g>
         <g transform="translate(130, 130)">
             <path d="M0,-117A117,117,0,1,1,-30.282,-113.013L-16.823,-62.785A65,65,0,1,0,0,-65Z" style="fill: #3178c6;" class="stroke-bg" stroke-width="2px">
-                <title>C# 70</title>
+                <title>C# 40</title>
                 <animate attributeName="fill-opacity" values="0;0.2;0.4;0.6;0.8;1;1;1;1" dur="3s" repeatCount="1"></animate>
             </path>
             <path d="M-30.282,-113.013A117,117,0,0,1,-22.826,-114.752L-12.681,-63.751A65,65,0,0,0,-16.823,-62.785Z" style="fill: #663399;" class="stroke-bg" stroke-width="2px">
-                <title>CSS 1</title>
+                <title>CSS 31</title>
                 <animate attributeName="fill-opacity" values="0;0;0.2;0.4;0.6;0.8;1;1;1" dur="3s" repeatCount="1"></animate>
             </path>
             <path d="M-22.826,-114.752A117,117,0,0,1,-15.272,-115.999L-8.484,-64.444A65,65,0,0,0,-12.681,-63.751Z" style="fill: #f1e05a;" class="stroke-bg" stroke-width="2px">
