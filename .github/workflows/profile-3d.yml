@@ -1,37 +1,45 @@
-name: GitHub-Profile-3D-Contrib
+name: 3D + Metrics
 
 on:
-  # roda todo dia às 03:00 no horário de Brasília (UTC‑3 ⇒ 06:00 UTC)
   schedule:
-    - cron: "0 6 * * *"
-  workflow_dispatch:   # botão “Run workflow” na aba Actions
+    - cron: "0 6 * * *"     # 03:00 BRT
+  workflow_dispatch:
 
 permissions:
-  contents: write       # preciso para fazer commit automático
+  contents: write
 
 jobs:
-  build:
+  contrib-3d:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
-
     steps:
       - uses: actions/checkout@v4
-
-      # gera as imagens SVG do gráfico 3D
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # gerado pelo próprio GitHub
-          USERNAME: ${{ github.repository_owner }}    # seu usuário (auto)
-
-      # faz commit só se houver mudanças
-      - name: Commit & Push
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit 3‑D
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A .
-          if git diff --cached --quiet; then
-            echo "Nada pra commitar 🙂"
-          else
-            git commit -m "chore: update 3D contrib graph"
-            git push
-          fi
+          git add profile-3d-contrib/*.svg
+          git diff --cached --quiet || { git commit -m "chore: update 3‑D graph"; git push; }
+
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-private.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, repositories
+          plugin_languages: yes
+          plugin_lines: yes
+          plugin_languages_limit: 10
+          config_timezone: America/Sao_Paulo
+      - name: Commit Metrics
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add metrics-private.svg
+          git diff --cached --quiet || { git commit -m "chore: update metrics"; git push; }
