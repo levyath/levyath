@@ -1,3 +1,72 @@
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-green.svg" alt="Gráfico 3D" width="100%">
+  <img src="https://yourdomain.com/banner.gif" alt="Banner" width="100%" />
+</p>
+
+<h1 align="center">Olá! Eu sou o <span style="color:#00BFFF">Levy Arthur</span> 👋</h1>
+<p align="center">💻 Desenvolvedor | 🚀 Estudante</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/levy-arthur-998151219/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin"></a>
+  <!--<a href="https://seuportfolio.com"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=github"></a>-->
+  <a href="mailto:levy.arthur.s.b@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-red?style=flat-square&logo=gmail"></a>
+</p>
+
+---
+
+## 💡 Sobre mim
+
+- 🌱 Atualmente aprendendo: **TypeScript, React, Nginx**
+- 🧠 Interesses: **Qualquer área relacionada ao desenvolvimento de software**
+- ⚙️ Ferramentas favoritas: .NET, SqlServer, Docker, Microsoft Visual Studio, React, Node.js, VSCode, Figma
+- 🎯 Buscando colaborar com projetos que fazem a diferença
+
+---
+
+## 🚀 Minhas Tecnologias
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c#,js,ts,react,nodejs,nextjs,python,git,github,docker,figma" />
+</p>
+
+---
+
+## 📊 Meus dados no GitHub
+
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=levyath&show_icons=true&theme=tokyonight&hide=prs)
+![Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=levyath&layout=compact&theme=tokyonight)
+![Streak](https://streak-stats.demolab.com?user=levyath&theme=tokyonight)
+
+</div>
+
+---
+
+## 🧩 Snake de Contribuição
+
+![snake gif](https://github.com/levyath/seuusuario/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+## 🧠 Projetos em Destaque
+
+| Projeto | Descrição | Tecnologias |
+|--------|-----------|-------------|
+| [🔗 Nome do Projeto](https://github.com/levyath/Api_Gerenciamento_de_obras) | Um projeto legal que faz XYZ | React, Node.js |
+<!--| [🔗 Outro Projeto](https://github.com/seuusuario/projeto2) | Automatiza tarefas com IA | Python, OpenAI API |-->
+
+---
+
+## 📬 Contato
+
+<p align="center">
+  <a href="mailto:levy.arthur.s.b@gmail.com">📩 Me envie um email</a> •
+  <a href="https://linkedin.com/in/levy-arthur-998151219/">📎 LinkedIn</a> •
+  <!--<a href="https://seuportfolio.com">🌐 Portfólio</a>-->
+</p>
+
+---
+
+<p align="center">
+  Feito com ❤️ por <strong>Levy Arthur</strong>
 </p>
