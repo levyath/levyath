@@ -2007,51 +2007,41 @@ fill-opacity: 0.5;
         </polygon>
     </g>
     <g transform="translate(40, 520)">
-        <g transform="translate(273, 0)">
-            <rect x="0" y="70.41666666666667" width="21.666666666666668" height="21.666666666666668" fill="#3178c6" class="stroke-bg" stroke-width="1px">
-                <animate attributeName="fill-opacity" values="0;0.2;0.4;0.6;0.8;1;1;1;1" dur="3s" repeatCount="1"></animate>
-            </rect>
-            <rect x="0" y="102.91666666666667" width="21.666666666666668" height="21.666666666666668" fill="#663399" class="stroke-bg" stroke-width="1px">
-                <animate attributeName="fill-opacity" values="0;0;0.2;0.4;0.6;0.8;1;1;1" dur="3s" repeatCount="1"></animate>
-            </rect>
-            <rect x="0" y="135.41666666666666" width="21.666666666666668" height="21.666666666666668" fill="#f1e05a" class="stroke-bg" stroke-width="1px">
-                <animate attributeName="fill-opacity" values="0;0;0;0.2;0.4;0.6;0.8;1;1" dur="3s" repeatCount="1"></animate>
-            </rect>
-            <rect x="0" y="167.91666666666666" width="21.666666666666668" height="21.666666666666668" fill="#444444" class="stroke-bg" stroke-width="1px">
-                <animate attributeName="fill-opacity" values="0;0;0;0;0.2;0.4;0.6;0.8;1" dur="3s" repeatCount="1"></animate>
-            </rect>
-            <text dominant-baseline="middle" x="26" y="81.25" class="fill-fg" font-size="21.666666666666668px">C #
-                <animate attributeName="fill-opacity" values="0;0.2;0.4;0.6;0.8;1;1;1;1" dur="3s" repeatCount="1"></animate>
-            </text>
-            <text dominant-baseline="middle" x="26" y="113.75" class="fill-fg" font-size="21.666666666666668px">CSS
-                <animate attributeName="fill-opacity" values="0;0;0.2;0.4;0.6;0.8;1;1;1" dur="3s" repeatCount="1"></animate>
-            </text>
-            <text dominant-baseline="middle" x="26" y="146.25" class="fill-fg" font-size="21.666666666666668px">JavaScript
-                <animate attributeName="fill-opacity" values="0;0;0;0.2;0.4;0.6;0.8;1;1" dur="3s" repeatCount="1"></animate>
-            </text>
-            <text dominant-baseline="middle" x="26" y="178.75" class="fill-fg" font-size="21.666666666666668px">other
-                <animate attributeName="fill-opacity" values="0;0;0;0;0.2;0.4;0.6;0.8;1" dur="3s" repeatCount="1"></animate>
-            </text>
-        </g>
-        <g transform="translate(130, 130)">
-            <path d="M0,-117A117,117,0,1,1,-30.282,-113.013L-16.823,-62.785A65,65,0,1,0,0,-65Z" style="fill: #3178c6;" class="stroke-bg" stroke-width="2px">
-                <title>C# 40</title>
-                <animate attributeName="fill-opacity" values="0;0.2;0.4;0.6;0.8;1;1;1;1" dur="3s" repeatCount="1"></animate>
-            </path>
-            <path d="M-30.282,-113.013A117,117,0,0,1,-22.826,-114.752L-12.681,-63.751A65,65,0,0,0,-16.823,-62.785Z" style="fill: #663399;" class="stroke-bg" stroke-width="2px">
-                <title>CSS 31</title>
-                <animate attributeName="fill-opacity" values="0;0;0.2;0.4;0.6;0.8;1;1;1" dur="3s" repeatCount="1"></animate>
-            </path>
-            <path d="M-22.826,-114.752A117,117,0,0,1,-15.272,-115.999L-8.484,-64.444A65,65,0,0,0,-12.681,-63.751Z" style="fill: #f1e05a;" class="stroke-bg" stroke-width="2px">
-                <title>JavaScript 27</title>
-                <animate attributeName="fill-opacity" values="0;0;0;0.2;0.4;0.6;0.8;1;1" dur="3s" repeatCount="1"></animate>
-            </path>
-            <path d="M-15.272,-115.999A117,117,0,0,1,0,-117L0,-65A65,65,0,0,0,-8.484,-64.444Z" style="fill: #444444;" class="stroke-bg" stroke-width="2px">
-                <title>other 2</title>
-                <animate attributeName="fill-opacity" values="0;0;0;0;0.2;0.4;0.6;0.8;1" dur="3s" repeatCount="1"></animate>
-            </path>
-        </g>
+    <g transform="translate(273, 0)">
+        <rect x="0" y="70.41666666666667" width="21.666666666666668" height="21.666666666666668" fill="#3178c6" class="stroke-bg" stroke-width="1px">
+            <animate attributeName="fill-opacity" values="0;0.2;0.4;0.6;0.8;1;1;1;1" dur="3s" repeatCount="1"></animate>
+        </rect>
+        <rect x="0" y="102.91666666666667" width="21.666666666666668" height="21.666666666666668" fill="#3572A5" class="stroke-bg" stroke-width="1px">
+            <animate attributeName="fill-opacity" values="0;0;0.2;0.4;0.6;0.8;1;1;1" dur="3s" repeatCount="1"></animate>
+        </rect>
+        <rect x="0" y="135.41666666666666" width="21.666666666666668" height="21.666666666666668" fill="#f1e05a" class="stroke-bg" stroke-width="1px">
+            <animate attributeName="fill-opacity" values="0;0;0;0.2;0.4;0.6;0.8;1;1" dur="3s" repeatCount="1"></animate>
+        </rect>
+        <text dominant-baseline="middle" x="26" y="81.25" class="fill-fg" font-size="21.666666666666668px">C#
+            <animate attributeName="fill-opacity" values="0;0.2;0.4;0.6;0.8;1;1;1;1" dur="3s" repeatCount="1"></animate>
+        </text>
+        <text dominant-baseline="middle" x="26" y="113.75" class="fill-fg" font-size="21.666666666666668px">Python
+            <animate attributeName="fill-opacity" values="0;0;0.2;0.4;0.6;0.8;1;1;1" dur="3s" repeatCount="1"></animate>
+        </text>
+        <text dominant-baseline="middle" x="26" y="146.25" class="fill-fg" font-size="21.666666666666668px">JavaScript
+            <animate attributeName="fill-opacity" values="0;0;0;0.2;0.4;0.6;0.8;1;1" dur="3s" repeatCount="1"></animate>
+        </text>
     </g>
+    <g transform="translate(130, 130)">
+        <path d="M0,-117A117,117,0,1,1,-70.2,-93.6L-39,-52A65,65,0,1,0,0,-65Z" style="fill: #3178c6;" class="stroke-bg" stroke-width="2px">
+            <title>C# 60%</title>
+            <animate attributeName="fill-opacity" values="0;0.2;0.4;0.6;0.8;1;1;1;1" dur="3s" repeatCount="1"></animate>
+        </path>
+        <path d="M-70.2,-93.6A117,117,0,0,1,-117,0L-65,0A65,65,0,0,0,-39,-52Z" style="fill: #3572A5;" class="stroke-bg" stroke-width="2px">
+            <title>Python 30%</title>
+            <animate attributeName="fill-opacity" values="0;0;0.2;0.4;0.6;0.8;1;1;1" dur="3s" repeatCount="1"></animate>
+        </path>
+        <path d="M-117,0A117,117,0,0,1,0,-117L0,-65A65,65,0,0,0,-65,0Z" style="fill: #f1e05a;" class="stroke-bg" stroke-width="2px">
+            <title>JavaScript 10%</title>
+            <animate attributeName="fill-opacity" values="0;0;0;0.2;0.4;0.6;0.8;1;1" dur="3s" repeatCount="1"></animate>
+        </path>
+    </g>
+</g>
     <g>
         <text style="font-size: 32px; font-weight: bold;" x="384" y="830" text-anchor="end" class="fill-strong">100</text>
         <text style="font-size: 24px;" x="394" y="830" text-anchor="start" class="fill-fg">contributions</text>
