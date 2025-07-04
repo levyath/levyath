@@ -34,12 +34,14 @@
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=levyath&show_icons=true&theme=tokyonight&hide=prs)
+
+![Stats](https://github-readme-stats.vercel.app/api?username=levyath&show_icons=true&theme=tokyonight&hide=prs&count_private=true&include_all_commits=true&custom_title=Levy%20Arthur%20Stats)
 ![Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=levyath&layout=compact&theme=tokyonight)
 ![Streak](https://streak-stats.demolab.com?user=levyath&theme=tokyonight)
 
 </div>
 
+<!--
 ---
 
 ## 🧩 Snake de Contribuição
@@ -47,12 +49,13 @@
 ![snake gif](https://github.com/levyath/seuusuario/blob/output/github-contribution-grid-snake.svg)
 
 ---
+-->
 
 ## 🧠 Projetos em Destaque
 
 | Projeto | Descrição | Tecnologias |
 |--------|-----------|-------------|
-| [🔗 Nome do Projeto](https://github.com/levyath/Api_Gerenciamento_de_obras) | Um projeto legal que faz XYZ | React, Node.js |
+| [🔗 Gerenciamento de obras](https://github.com/levyath/Api_Gerenciamento_de_obras) | Um projeto legal que busca trazer uma introdução ao uso de nest.js para construção de uma api que gerencia obras | React, Node.js |
 <!--| [🔗 Outro Projeto](https://github.com/seuusuario/projeto2) | Automatiza tarefas com IA | Python, OpenAI API |-->
 
 ---
