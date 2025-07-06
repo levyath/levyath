@@ -2,6 +2,8 @@
   <img src="https://yourdomain.com/banner.gif" alt="Banner" width="100%" />
 </p>
 
+![Gráfico 3D de Contribuições](profile-3d-contrib/profile-night-rainbow.svg)
+
 <h1 align="center">Olá! Eu sou o <span style="color:#00BFFF">Levy Arthur</span> 👋</h1>
 <p align="center">💻 Desenvolvedor | 🚀 Estudante</p>
 
