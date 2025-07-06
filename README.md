@@ -2,8 +2,6 @@
   <img src="https://yourdomain.com/banner.gif" alt="Banner" width="100%" />
 </p>
 
-![Gráfico 3D de Contribuições](profile-3d-contrib/profile-night-rainbow_1.svg)
-
 <h1 align="center">Olá! Eu sou o <span style="color:#00BFFF">Levy Arthur</span> 👋</h1>
 <p align="center">💻 Desenvolvedor | 🚀 Estudante</p>
 
@@ -12,6 +10,8 @@
   <!--<a href="https://seuportfolio.com"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=github"></a>-->
   <a href="mailto:levy.arthur.s.b@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-red?style=flat-square&logo=gmail"></a>
 </p>
+
+![Gráfico 3D de Contribuições](profile-3d-contrib/profile-night-rainbow_1.svg)
 
 ---
 
