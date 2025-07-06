@@ -34,31 +34,6 @@
 
 ## 📊 Meus Dados no GitHub
 
-<div align="center">
-
-  <!-- GitHub Stats -->
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=levyath&show_icons=true&theme=tokyonight&hide=prs&count_private=true&include_all_commits=true&custom_title=Levy%20Arthur%20Stats" 
-    alt="GitHub Stats" 
-    height="180"
-  />
-
-  <!-- Linguagens mais usadas -->
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=levyath&layout=compact&theme=tokyonight&hide_progress=false" 
-    alt="Top Langs" 
-    height="180"
-  />
-
-  <!-- GitHub Streak -->
-  <img 
-    src="https://streak-stats.demolab.com?user=levyath&theme=tokyonight&date_format=j%20M%5B%20Y%5D" 
-    alt="GitHub Streak"
-    height="180"
-  />
-
-</div>
-
 <!--
 ---
 
