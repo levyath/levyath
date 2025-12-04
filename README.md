@@ -44,11 +44,12 @@
 ---
 -->
 
-## 🧠 Projetos em Destaque
+## 🧠 Projetos Públicos com participação em Destaque
 
 | Projeto | Descrição | Tecnologias |
 |--------|-----------|-------------|
-| [🔗 Gerenciamento de obras](https://github.com/levyath/Api_Gerenciamento_de_obras) | Um projeto legal que busca trazer uma introdução ao uso de nest.js para construção de uma api que gerencia obras | React, Node.js |
+| [🔗 Gerenciamento de obras ](https://github.com/levyath/Api_Gerenciamento_de_obras) | Um projeto legal que busca trazer uma introdução ao uso de nest.js para construção de uma api que gerencia obras. |
+| [🔗 Delivery inteligente ](https://github.com/alexsanjr/delivery-cefet) | Sistema de delivery utilizando arquitetura de microserviços. |
 <!--| [🔗 Outro Projeto](https://github.com/seuusuario/projeto2) | Automatiza tarefas com IA | Python, OpenAI API |-->
 
 ---
