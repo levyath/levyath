@@ -19,7 +19,7 @@
 
 - 🌱 Atualmente aprendendo: **TypeScript, React, Nginx**
 - 🧠 Interesses: **Qualquer área relacionada ao desenvolvimento de software**
-- ⚙️ Ferramentas favoritas: .NET, SqlServer, Docker, Microsoft Visual Studio, React, Node.js, VSCode, Figma
+- ⚙️ Ferramentas favoritas: .NET, SqlServer, Docker, Microsoft Visual Studio, Figma
 - 🎯 Buscando colaborar com projetos que fazem a diferença
 
 ---
